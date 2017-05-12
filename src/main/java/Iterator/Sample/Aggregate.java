@@ -1,4 +1,4 @@
-package Iterator.A1;
+package Iterator.Sample;
 
 public interface Aggregate {
     public abstract Iterator iterator();
