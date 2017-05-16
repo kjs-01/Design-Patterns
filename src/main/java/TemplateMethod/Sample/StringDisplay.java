@@ -24,5 +24,10 @@ public class StringDisplay extends AbstractDisplay {
     }
 
     private void printLine() {
+        System.out.print("+");
+        for (int i = 0; i < width; i++) {
+            System.out.print("-");
+        }
+        System.out.println("+");
     }
 }
